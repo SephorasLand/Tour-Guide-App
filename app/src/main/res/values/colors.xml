@@ -3,9 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="background">#81F7BE</color>
-    <color name="places">#8258FA</color>
+    <color name="background">#ffffff</color>
+    <color name="places">#2152da</color>
     <color name="restaurants">#FE2E64</color>
     <color name="food">#FE642E</color>
-    <color name="celebrations">#2efe77</color>
+    <color name="celebrations">#26930d</color>
 </resources>

@@ -1,25 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="100">
-    
+    android:weightSum="100" >
+
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="50"
         android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="253dp"
         android:scaleType="centerCrop"
-        android:src="@mipmap/ic_launcher"/>
-    
+        android:src="@mipmap/ic_launcher" />
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/description"
-        android:layout_marginLeft="10dp"
+        android:id="@+id/place_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_marginTop="20dp"
-        android:text="description"
+        android:text="Place Name"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:text="Description"
+        android:justificationMode="inter_word"
         android:textColor="#000"/>
 
+
 </LinearLayout>
+</ScrollView>
